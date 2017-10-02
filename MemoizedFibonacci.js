@@ -8,7 +8,7 @@ function fiboMemo(index, cache) {
     if (index < 3) return 1
     else {
       //calculate and store numbers up to the index
-      cache[index] = fiboMemo(index -1, cache) + fiboMemo(index - 2)
+      cache[index] = fiboMemo(index -1, cache) + fiboMemo(index - 2, cache)
     }
   }
   return cache[index]
