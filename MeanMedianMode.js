@@ -23,7 +23,7 @@ function getMedian(array) {
   let median
   //if the array has an odd number length, get the middle element
   if (array.length % 2 !== 0) {
-    median = array[math.floor(array.length / 2)]
+    median = array[Math.floor(array.length / 2)]
   }
   //get the two middle elements and find the middle value of the two
   else {

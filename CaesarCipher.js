@@ -1,6 +1,6 @@
 function caesarCipher(str, num) {
   //reduce large numbers to work quickly
-  num = % 26
+  num = num % 26
   //make the string lower case to optimize comparisons
   let phrase = str.toLowerCase()
   //make array of lowecase letters to compare/shift
